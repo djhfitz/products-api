@@ -17,7 +17,7 @@ public class Product {
     //getters
     public Long getId() { return id; }
     public String getName() { return name; }
-// activity 3 tut 2 - i predict that because it cannot get the field it will just return nothing
+    // activity 3 tut 2 - i predict that because it cannot get the field it will just return nothing
     public double getPrice() { return price; }
 
     //setters

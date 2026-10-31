@@ -39,4 +39,9 @@ public class ProductService {
                 .filter(p -> p.getName().contains(name))
                 .toList();
     }
+
+    public ProductService() {
+        products.add(new DigitalProduct(1L, "Digital Music Album", 9.99, "https://musicwebsiteexample.com/music24414.mp4", 120.0));
+        products.add(new PhysicalProduct(2L, "Vinyl", 74.99,0.350, "12-Inch LP"));
+    }
 }
